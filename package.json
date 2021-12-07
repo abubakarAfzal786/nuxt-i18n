@@ -1,0 +1,25 @@
+{
+  "name": "switch-languages-i18n-nuxt",
+  "version": "1.0.0",
+  "description": "Nuxt starter for CodeSandBox",
+  "author": "Nuxt.js Team",
+  "private": true,
+  "scripts": {
+    "dev": "MINIMAL=1 CSB=1 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@nuxt/http": "^0.3.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "nuxt": "^2.5.1",
+    "nuxt-i18n": "6.4.0",
+    "reqlim": "^0.0.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.12.2"
+  }
+}
